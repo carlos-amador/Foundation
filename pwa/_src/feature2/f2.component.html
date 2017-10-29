@@ -1,0 +1,52 @@
+<header class="row">
+    <div class="col-md-10">
+        <h3>Angular</h3>
+        <!--<hr>-->
+    </div>
+</header>
+
+
+<section class="row">
+    <div class="col-md-7">
+        <form (ngSubmit)="onSubmit()" [formGroup]="sampleForm" novalidate>
+            <h4>Sample Form</h4>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input formControlName="firstName" type="text" class="form-control" placeholder="enter first name">
+                <validation class="error" [control]="sampleForm.get('firstName')"></validation>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input formControlName="lastName" type="text" class="form-control" placeholder="enter last name">
+                <validation class="error" [control]="sampleForm.get('lastName')"></validation>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input formControlName="email" type="text" class="form-control" placeholder="enter email address">
+                <validation class="error" [control]="sampleForm.get('email')"></validation>
+            </div>
+            <div formGroupName="passwordGroup">
+                <div class="form-group">
+                    <label for="password">Create Password</label>
+                    <input formControlName="password" type="text" class="form-control" placeholder="enter password">
+                    <validation class="error" [control]="sampleForm.get('passwordGroup.password')"></validation>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input formControlName="confirmPassword" type="text" class="form-control" placeholder="confirm password">
+                    <validation class="error" [control]="sampleForm.get('passwordGroup.confirmPassword')"></validation>
+                    <validation class="error" [control]="sampleForm.get('passwordGroup')"></validation>
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <button class="btn col-md-2" (click)="onSubmit()">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+</section>

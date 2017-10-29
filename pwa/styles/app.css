@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'ChunkFive';
+  src: url('../fonts/chunkfive/CHUNKFIVE.EOT');
+  src: url('../fonts/chunkfive/CHUNKFIVE.EOT?#iefix') format('embedded-opentype'), url('../fonts/chunkfive/CHUNKFIVE.WOFF') format('woff'), url('../fonts/chunkfive/CHUNKFIVE.TTF') format('truetype'), url('../fonts/chunkfive/CHUNKFIVE.SVG#chunkfiveregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex-Gyre-Adventor Regular';
+	src: url('../fonts/texgyreadventor/TEXGYREADVENTOR-REGULAR.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tex-Gyre-Adventor Bold';
+    src: url('../fonts/texgyreadventor/TEXGYREADVENTOR-BOLD.WOFF') format('woff');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    font-family: 'Tex-Gyre-Adventor Regular';
+    background: white;
+    color: dodgerblue;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+section{
+    font-size:16px;
+}
+
+label {
+    font-weight: normal;
+    /*font-size: 16px;*/
+}
+
+hr{
+    background: dodgerblue;
+    border-color: dodgerblue;
+
+}
+
+.error{
+    color: red;
+}
+/*div, a {
+  margin: 20px;
+  font-size: 20px;
+}*/
