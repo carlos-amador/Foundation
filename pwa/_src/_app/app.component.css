@@ -1,0 +1,17 @@
+app img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+
+}
+
+app nav{
+    /*width: 60%;*/
+    /*margin-left: 20px;*/
+    margin-top: 80px;
+}
+
+app nav div {
+  margin: 20px 0px 20px 30px;
+  font-size: 16px;
+}

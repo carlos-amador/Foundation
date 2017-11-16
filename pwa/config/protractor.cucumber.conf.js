@@ -33,7 +33,7 @@ module.exports = {
       ],
       compiler: 'ts:ts-node/register',
       strict: true,
-      format: ['pretty'],
+      format: 'progress-bar',
       tags: '@TypeScriptScenario or @CucumberScenario'
     },
 

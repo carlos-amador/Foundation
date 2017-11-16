@@ -1,4 +1,6 @@
 var helpers = require('./helpers');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 
 module.exports = {
   devtool: 'inline-source-map',
@@ -26,6 +28,11 @@ module.exports = {
         test: /\.css$/,
         exclude: helpers.root( 'app'),
         loader: 'null-loader'
+      },
+      {
+        test: /\.css$/,
+        exclude: helpers.root('_src', '_app'),
+        loader:['css-to-string-loader'].concat( ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' }))
       },
       {
         test: /\.css$/,

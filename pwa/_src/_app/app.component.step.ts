@@ -12,31 +12,31 @@ defineSupportCode(function ({Given, When, Then}) {
     Given(/^I am on google page$/, () => {
        page.navigateTo()
        console.log("Given");
-       return expect(page.getHeaderText()).to.eventually.equal('Base Angular Application');
+       return expect(page.getHeaderText()).to.eventually.equal('Angular Application');
     });
 
     When(/^I type typescript$/, () => {
         page.navigateTo()
         console.log("When");
-        return expect(page.getHeaderText()).to.eventually.equal('Base Angular Application');
+        return expect(page.getHeaderText()).to.eventually.equal('Angular Application');
     });
     
     When(/^I type cucumber$/, () => {
         page.navigateTo()
         console.log("When");
-        return expect(page.getHeaderText()).to.eventually.equal('Base Angular Application');
+        return expect(page.getHeaderText()).to.eventually.equal('Angular Application');
     });
 
     Then(/^I click on search button$/, () => {
         page.navigateTo()
         console.log("Then");
-        return expect(page.getHeaderText()).to.eventually.equal('Base Angular Application');
+        return expect(page.getHeaderText()).to.eventually.equal('Angular Application');
     });
 
     Then(/^I clear the search text$/, () => {
         page.navigateTo()
         console.log("Then");
-        return expect(page.getHeaderText()).to.eventually.equal('Base Angular Application');
+        return expect(page.getHeaderText()).to.eventually.equal('Angular Application');
     });
 
 

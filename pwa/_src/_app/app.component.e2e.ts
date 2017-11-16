@@ -11,13 +11,12 @@ var e2etest = describe('Outside In App', function() {
 
   it('should display header message saying Base Angular Application', () => {
     page.navigateTo();
-    expect(page.getHeaderText()).toEqual("Base Angular Application");
+    expect(page.getHeaderText()).toEqual("Angular Application");
   });
 
   it('should click the overview button and show an overview description', () => {
     page.navigateTo();
-    page.clickLink("Overview");
-    expect(page.getParagraphText()).toEqual("Overview");
+    expect(page.getParagraphText()).toEqual("Start");
   });
 
 

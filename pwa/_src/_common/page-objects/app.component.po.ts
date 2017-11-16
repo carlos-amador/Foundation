@@ -9,7 +9,7 @@ export class AppComponentPage {
   }
 
   public navigateTo() {
-    browser.get('http://localhost:8501/');
+    browser.get('http://localhost:7010/');
   }
 
   public clickLink(button: string){
@@ -23,7 +23,7 @@ export class AppComponentPage {
 
   public getParagraphText() {
     //browser.driver.sleep(3000);
-    return element(by.css('app header h3')).getText();
+    return element(by.css('app h2')).getText();
   }
 
 

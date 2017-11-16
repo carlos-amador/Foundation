@@ -1,0 +1,10 @@
+C:\Projects\Learning\Foundation\servers\aspcore\bin\Debug\netcoreapp2.0\aspcore.deps.json
+C:\Projects\Learning\Foundation\servers\aspcore\bin\Debug\netcoreapp2.0\aspcore.runtimeconfig.json
+C:\Projects\Learning\Foundation\servers\aspcore\bin\Debug\netcoreapp2.0\aspcore.runtimeconfig.dev.json
+C:\Projects\Learning\Foundation\servers\aspcore\bin\Debug\netcoreapp2.0\aspcore.dll
+C:\Projects\Learning\Foundation\servers\aspcore\bin\Debug\netcoreapp2.0\aspcore.pdb
+C:\Projects\Learning\Foundation\servers\aspcore\obj\Debug\netcoreapp2.0\aspcore.csproj.CoreCompileInputs.cache
+C:\Projects\Learning\Foundation\servers\aspcore\obj\Debug\netcoreapp2.0\aspcore.AssemblyInfoInputs.cache
+C:\Projects\Learning\Foundation\servers\aspcore\obj\Debug\netcoreapp2.0\aspcore.AssemblyInfo.cs
+C:\Projects\Learning\Foundation\servers\aspcore\obj\Debug\netcoreapp2.0\aspcore.dll
+C:\Projects\Learning\Foundation\servers\aspcore\obj\Debug\netcoreapp2.0\aspcore.pdb

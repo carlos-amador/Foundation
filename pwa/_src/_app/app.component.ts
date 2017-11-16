@@ -1,7 +1,7 @@
-import { Component, ViewEncapsulation } from '@angular/core';
 import '../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css'
-import '../../styles/app.css';
-import { MessageService, EventType } from '../_common/services/message.service';
+import '../../styles/app.css'
+import { Component, ViewEncapsulation } from '@angular/core'
+import { MessageService, EventType } from '../_common/services/message.service'
 
 @Component({
   selector: 'app',
