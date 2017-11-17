@@ -13,6 +13,7 @@
     "bdd": "protractor protractor.cucumber.conf.js",
     "clean": "rimraf dist/*",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "aspcore-build": "rimraf dist && webpack --config config/webpack.aspcore.prod.js --progress --profile --bail",
     "postinstall": "webdriver-manager update"
   },
   "devDependencies": {

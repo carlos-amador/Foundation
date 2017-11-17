@@ -1,0 +1,5 @@
+C:\Projects\Foundation\servers\aspcore
+--output-path=obj\Debug\netcoreapp2.0\
+--application-name=aspcore
+--content-root=C:\Projects\Foundation\servers\aspcore
+--file=
