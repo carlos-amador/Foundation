@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Projects\\Foundation\\servers\\aspcore\\aspcore.csproj",
+      "projectUniqueName": "C:\\Projects\\Foundation\\servers\\aspcore\\aspcore.csproj",
       "projectName": "aspcore",
-      "projectPath": "c:\\Projects\\Foundation\\servers\\aspcore\\aspcore.csproj",
+      "projectPath": "C:\\Projects\\Foundation\\servers\\aspcore\\aspcore.csproj",
       "packagesPath": "C:\\Users\\cma\\.nuget\\packages\\",
-      "outputPath": "c:\\Projects\\Foundation\\servers\\aspcore\\obj\\",
+      "outputPath": "C:\\Projects\\Foundation\\servers\\aspcore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

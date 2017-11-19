@@ -15,9 +15,10 @@ namespace aspcore.controllers
 
         public IActionResult Index()
         {
-            var webRoot = _env.WebRootPath;
-            var path = System.IO.Path.Combine(webRoot, "index.html");
-            return File(virtualPath: path, contentType: "text/html");
+            //var webRoot = _env.WebRootPath;
+            //var path = System.IO.Path.Combine(webRoot, "index.html");
+            //return File(virtualPath: path, contentType: "text/html");
+            return File("index.html", "text/html");
         }
 
         // 

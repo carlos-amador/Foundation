@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace aspcore
@@ -23,22 +24,22 @@ namespace aspcore
         {
             if (env.IsDevelopment())
             {
-                app.UseStaticFiles();
-                app.UseDefaultFiles();
                 app.UseDeveloperExceptionPage();
             }
+            
+            app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Index}/{action=Index}/{id?}");
+                routes.MapRoute(
+                    name: "rewrite",
+                    template: "{*url}",
+                    defaults: new{controller="Index", Action="Index"});
             });
 
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Listening on port 3010 from docker from living room - Bitchin!");
-            });
 
         }
     }

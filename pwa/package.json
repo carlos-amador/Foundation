@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "carlos amador",
   "license": "MIT",
+  "config": {
+    "aspcore" : "../servers/aspcore/wwwroot/*"
+  },
   "scripts": {
     "dev-start": "webpack-dev-server --inline --progress --port 7010",
     "dev-stop-win": "\"for /f \"tokens=5\" %a in ('netstat -aon ^| findstr 8501 ^| findstr LISTENING') do taskkill /f /pid %a\"",
@@ -12,8 +15,10 @@
     "e2e": "protractor protractor.conf.js",
     "bdd": "protractor protractor.cucumber.conf.js",
     "clean": "rimraf dist/*",
+    "clean2": "rimraf %npm_package_config_aspcore%",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-    "aspcore-build": "rimraf dist && webpack --config config/webpack.aspcore.prod.js --progress --profile --bail",
+    "aspcore-build": "rimraf $npm_package_config_aspcore && webpack --config config/webpack.aspcore.prod.js --progress --profile --bail",
+    "aspcore-build-win": "rimraf %npm_package_config_aspcore% && webpack --config config/webpack.aspcore.prod.js --progress --profile --bail",
     "postinstall": "webdriver-manager update"
   },
   "devDependencies": {
