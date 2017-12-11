@@ -1,0 +1,10 @@
+/Users/camador/projects/Foundation/api/aspcore/bin/Debug/netcoreapp2.0/aspcore.deps.json
+/Users/camador/projects/Foundation/api/aspcore/bin/Debug/netcoreapp2.0/aspcore.runtimeconfig.json
+/Users/camador/projects/Foundation/api/aspcore/bin/Debug/netcoreapp2.0/aspcore.runtimeconfig.dev.json
+/Users/camador/projects/Foundation/api/aspcore/bin/Debug/netcoreapp2.0/aspcore.dll
+/Users/camador/projects/Foundation/api/aspcore/bin/Debug/netcoreapp2.0/aspcore.pdb
+/Users/camador/projects/Foundation/api/aspcore/obj/Debug/netcoreapp2.0/aspcore.csproj.CoreCompileInputs.cache
+/Users/camador/projects/Foundation/api/aspcore/obj/Debug/netcoreapp2.0/aspcore.AssemblyInfoInputs.cache
+/Users/camador/projects/Foundation/api/aspcore/obj/Debug/netcoreapp2.0/aspcore.AssemblyInfo.cs
+/Users/camador/projects/Foundation/api/aspcore/obj/Debug/netcoreapp2.0/aspcore.dll
+/Users/camador/projects/Foundation/api/aspcore/obj/Debug/netcoreapp2.0/aspcore.pdb
