@@ -62,3 +62,10 @@ typings/
 # dotenv environment variables file
 .env
 
+api/aspcore/obj/aspcore.csproj.nuget.g.props
+server/aspcore/obj/project.assets.json
+api/aspcore/obj/aspcore.csproj.nuget.g.props
+api/aspcore/obj/aspcore.csproj.nuget.g.targets
+api/aspcore/obj/project.assets.json
+server/aspcore/obj/aspcore.csproj.nuget.g.props
+server/aspcore/obj/aspcore.csproj.nuget.g.targets
