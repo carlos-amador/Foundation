@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "express server ",
+  "main": "index.js",
+  "author": "carlos amador",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

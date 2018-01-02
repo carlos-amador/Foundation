@@ -35,11 +35,9 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-server/aspcore/wwwroot
-server/aspcore/bin
-server/aspcore/obj
-api/aspcore/bin
-api/aspcore/obj
+server/express/node_modules
+api/express/node_modules
+
 
 # Typescript v1 declaration files
 typings/
